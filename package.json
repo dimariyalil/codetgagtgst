@@ -1,0 +1,52 @@
+{
+  "name": "tg-traffic-master",
+  "version": "1.0.0",
+  "description": "Профессиональный инструмент для анализа Telegram каналов с использованием TGStat API",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx serve . -p 3000 --cors",
+    "build": "echo 'No build step required for static files'",
+    "test": "echo 'No tests specified'",
+    "serve": "npx http-server . -p 3000 -c-1 --cors",
+    "preview": "npx serve . -s -p 3000"
+  },
+  "keywords": [
+    "telegram",
+    "analytics",
+    "tgstat",
+    "channels",
+    "advertising",
+    "marketing",
+    "social-media"
+  ],
+  "author": "TG Traffic Master Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/TG_Traffic_Master_GitHub_Project.git"
+  },
+  "homepage": "https://yourusername.github.io/TG_Traffic_Master_GitHub_Project/",
+  "bugs": {
+    "url": "https://github.com/yourusername/TG_Traffic_Master_GitHub_Project/issues"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "files": [
+    "index.html",
+    "assets/",
+    "README.md"
+  ]
+}
